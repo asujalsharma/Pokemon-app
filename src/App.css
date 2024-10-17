@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair');
+
+body{
+  font-family: 'Playfair';
+  background: linear-gradient(135deg, #3498db 10%, #e74c3c 90%);}
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.search-bar {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.heading{
+  font-size: 3rem;
+  letter-spacing: 3px;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7), 0px 2px 5px rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
